@@ -15,7 +15,8 @@ export default defineConfig(() => {
       tailwindcss(),
       VitePWA({
         registerType: 'autoUpdate',
-        includeAssets: ['favicon.ico', 'icon.svg', 'icon-maskable.svg'],
+        injectRegister: 'auto',
+        includeAssets: ['favicon.ico', 'icon.svg', 'icon-maskable.svg', 'pwa-192.png', 'pwa-512.png'],
         manifest: {
           id: '/',
           name: 'Cozyon Product Knowledge',
@@ -24,13 +25,20 @@ export default defineConfig(() => {
           theme_color: '#0F172A',
           background_color: '#0F172A',
           display: 'standalone',
+          orientation: 'portrait',
           start_url: '/',
           scope: '/',
           icons: [
             {
-              src: '/icon.svg',
+              src: '/pwa-192.png',
+              sizes: '192x192',
+              type: 'image/png',
+              purpose: 'any',
+            },
+            {
+              src: '/pwa-512.png',
               sizes: '512x512',
-              type: 'image/svg+xml',
+              type: 'image/png',
               purpose: 'any',
             },
             {
