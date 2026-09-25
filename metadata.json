@@ -1,0 +1,6 @@
+{
+  "name": "Cozyon Product Knowledge",
+  "description": "A mobile-friendly product knowledge application for Cozyon sandals, designed for warehouse teams to quickly access product details, images, and sizes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
