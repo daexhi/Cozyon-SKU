@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { products, Product } from './data/products';
 import { Search, ChevronLeft, Box, Ruler, Info, Package } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import { PWAInstallPrompt } from './components/PWAInstallPrompt';
 
 const App: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -266,6 +267,7 @@ const App: React.FC = () => {
           </motion.div>
         )}
       </AnimatePresence>
+      <PWAInstallPrompt />
     </div>
   );
 };
