@@ -81,25 +81,91 @@ const skuCategoryMap: Record<string, string> = {
 };
 
 const skuDetailsMap: Record<string, Partial<Product>> = {
+  'CZN-001': {
+    sizes: ['36', '37', '38', '39', '40'],
+    colors: ['Coklat', 'Cream', 'Hitam'],
+    description: `CZN-001 Sandal Selop Wanita Platform EVA
+
+Sandal selop wanita CZN-001 menghadirkan kombinasi sempurna antara kenyamanan maksimal dan tampilan yang modis. Dirancang khusus dengan bantalan empuk dan lentur serta ketebalan sol ±3–4 cm yang pas untuk memberikan efek kaki terlihat lebih jenjang tanpa mengorbankan kenyamanan. Terbuat dari material EVA Premium berkualitas tinggi yang super ringan di kaki, sandal ini sangat nyaman dipakai seharian untuk beraktivitas lama tanpa membuat kaki pegal. Dilengkapi dengan alas sol bertekstur anti-licin yang aman digunakan di berbagai permukaan lantai rumah maupun area luar ruangan.
+
+Spesifikasi:
+- Kode Produk: CZN-001
+- Jenis Produk: Sandal Selop / Slide Wanita (Platform)
+- Bahan/Material: EVA Premium (Empuk, Lentur, Super Ringan & Tahan Lama)
+- Tinggi Sol: ± 3–4 cm
+- Fitur Utama: Sol Platform Nyaman, Bantalan Empuk Bebas Pegal, Outsole Anti-Licin
+- Pilihan Ukuran: Size 36 sampai 40
+- Target: Wanita / Ibu Rumah Tangga
+- Penggunaan: Indoor & Outdoor (Sandal rumah, pemakaian harian, dan jalan santai)`,
+  },
   'CZN-002': {
     sizes: ['36-37', '38-39', '40-41'],
     colors: ['Hitam', 'Coklat', 'Cream'],
-    description: 'Belum Tersedia',
+    description: `CZN-002 Sandal Selop Wanita Platform EVA
+
+Sandal selop wanita CZN-002 menghadirkan kombinasi sempurna antara kenyamanan maksimal dan tampilan yang modis. Dirancang khusus dengan bantalan empuk dan lentur serta ketebalan sol ±3–4 cm yang pas untuk memberikan efek kaki terlihat lebih jenjang tanpa mengorbankan kenyamanan. Terbuat dari material EVA Premium berkualitas tinggi yang super ringan di kaki, sandal ini sangat nyaman dipakai seharian untuk beraktivitas lama tanpa membuat kaki pegal. Dilengkapi dengan alas sol bertekstur anti-licin yang aman digunakan di berbagai permukaan lantai rumah maupun area luar ruangan.
+
+Spesifikasi:
+- Kode Produk: CZN-002
+- Jenis Produk: Sandal Selop / Slide Wanita (Platform)
+- Bahan/Material: EVA Premium (Empuk, Lentur, Super Ringan & Tahan Lama)
+- Tinggi Sol: ± 3–4 cm
+- Fitur Utama: Sol Platform Nyaman, Bantalan Empuk Bebas Pegal, Outsole Anti-Licin
+- Pilihan Ukuran: Size 36 sampai 40
+- Target: Wanita / Ibu Rumah Tangga
+- Penggunaan: Indoor & Outdoor (Sandal rumah, pemakaian harian, dan jalan santai)`,
   },
   'CZN-003': {
     sizes: ['36/37', '38/39', '40/41', '42/43', '44/45'],
     colors: ['Hitam', 'Taupe', 'Abu-Abu', 'Cream', 'Navy', 'Hijau Tua'],
-    description: 'Belum Tersedia',
+    description: `CZN-003 Sandal Jepit Unisex Minimalis
+
+Sandal jepit CZN-003 hadir dengan desain simpel, minimalis, dan modern yang sangat serbaguna untuk pria maupun wanita. Dibuat dari material EVA Premium pilihan yang super ringan dan lentur, sandal ini memberikan sensasi empuk di setiap langkah sehingga menjaga kaki tetap bebas pegal walau digunakan beraktivitas sepanjang hari. Dilengkapi dengan alas sol bertekstur anti-licin untuk memberikan daya cengkeram yang stabil dan aman, menjadikannya pilihan ideal untuk penggunaan harian di rumah maupun saat jalan santai di luar.
+
+Spesifikasi:
+- Kode Produk: CZN-003
+- Jenis Produk: Sandal Jepit Unisex
+- Bahan/Material: EVA Premium (Super Ringan, Lentur, Empuk & Nyaman)
+- Fitur Utama: Desain Simpel Modern, Outsole Anti-Licin, Nyaman Bebas Pegal
+- Pilihan Warna: Hitam
+- Pilihan Ukuran: Size 36 sampai 43
+- Target: Pria & Wanita (Unisex)
+- Penggunaan: Sandal rumah, jalan santai, dan aktivitas sehari-hari`,
   },
   'CZN-004': {
     sizes: ['36/37', '38/39', '40/41'],
     colors: ['Hitam', 'Cream'],
-    description: 'Belum Tersedia',
+    description: `CZN-004 Sandal Jepit Wedges Wanita Tali Strap Dua
+
+Sandal jepit wedges wanita CZN-004 hadir menggabungkan desain kasual yang fashionable, trendy, dan stylish untuk menunjang aktivitas bepergian maupun harian. Menggunakan material karet jelly premium yang halus, elastis, dan super empuk, sandal ini memberikan kenyamanan ekstra di setiap langkah tanpa menyebabkan rasa sakit saat dipakai seharian. Dilengkapi dengan tambahan desain tali strap dua yang manis serta sol tebal ±3 cm untuk tampilan lebih proporsional. Bahan sandal tahan air, tahan cuaca, serta sangat mudah dibersihkan. Outsole bertekstur anti-slip memastikan pijakan tetap stabil, aman, dan tidak licin di area indoor maupun outdoor.
+
+Spesifikasi:
+- Kode Produk: CZN-004
+- Jenis Produk: Sandal Jepit Wedges Wanita (Tali Strap Dua)
+- Bahan/Material: Karet Jelly Premium (Halus, Elastis, Empuk, Tahan Air & Tahan Cuaca)
+- Tinggi Sol: ± 3 cm
+- Fitur Utama: Tali Strap Dua Fashionable, Material Karet Jelly Halus, Sol Wedges Empuk, Outsole Anti-Slip
+- Pilihan Warna: Cream
+- Pilihan Ukuran: Size 36/37 (Insole 22,5 cm), 38/39 (Insole 23,5 cm), dan 40/41 (Insole 24,5 cm)
+- Target: Wanita
+- Penggunaan: Indoor & Outdoor (Bepergian, jalan santai, hangout, dan pemakaian harian)`,
   },
   'CZN-006': {
     sizes: ['36', '37', '38', '39', '40'],
     colors: ['Hitam', 'Cream', 'Pink'],
-    description: 'Belum Tersedia',
+    description: `CZN-006 Sandal Selop Wanita Puffy Strap
+
+Sandal selop wanita CZN-006 hadir dengan desain puffy strap tebal yang terlihat mewah, kekinian, dan elegan. Dibalut warna cream soft yang cantik dan estetik, sandal ini sangat mudah dipadukan dengan berbagai jenis outfit santai harianmu. Dibuat dari material EVA Premium berkualitas tinggi yang super empuk, sangat ringan, dan fleksibel, memberikan kenyamanan ekstra walau dipakai beraktivitas seharian. Dilengkapi dengan outsole bertekstur anti-slip untuk menjaga kestabilan pijakan agar aman dan tidak licin saat digunakan di dalam maupun di luar rumah.
+
+Spesifikasi:
+- Kode Produk: CZN-006
+- Jenis Produk: Sandal Slide / Selop Wanita (Puffy Strap)
+- Bahan/Material: EVA Premium (Super Empuk, Ringan, Fleksibel & Tahan Lama)
+- Fitur Utama: Desain Puffy Strap Premium, Warna Cream Soft Estetik, Sol Anti-Slip Anti Licin
+- Pilihan Warna: Cream / Beige
+- Pilihan Ukuran: Size 36 sampai 41 (Disarankan naik 1 size untuk tipe kaki cenderung lebar)
+- Target: Wanita
+- Penggunaan: Indoor & Outdoor (Sandal rumah, jalan santai, hangout, dan pemakaian harian)`,
   },
   'CZN-008': {
     sizes: ['36/37', '38/39', '40/41'],
@@ -109,47 +175,140 @@ const skuDetailsMap: Record<string, Partial<Product>> = {
   'CZN-009': {
     sizes: ['39/40', '41/42', '43/44'],
     colors: ['Hitam', 'Putih', 'Navy', 'Abu-Abu'],
-    description: 'Belum Tersedia',
+    description: `CZN-009 Sandal Slop Pria Casual Premium
+
+Sandal slop pria CZN-009 hadir dengan desain minimalis, modern, dan stylish untuk menunjang gaya kasual harianmu. Dibuat dari material EVA Premium berkualitas yang super ringan, empuk, dan fleksibel, memberikan kenyamanan maksimal di setiap langkah tanpa membuat kaki lelah. Mengusung model slip-on yang praktis dan mudah dipakai, sandal ini juga dilengkapi dengan outsole bertekstur anti-slip yang aman dan tidak licin saat melangkah di berbagai permukaan indoor maupun outdoor.
+
+Spesifikasi:
+- Kode Produk: CZN-009
+- Jenis Produk: Sandal Slip On / Slop Pria
+- Bahan/Material: EVA Premium (Ringan, Empuk, Fleksibel & Tahan Lama)
+- Fitur Utama: Desain Minimalis Stylish, Model Slip-On Praktis, Outsole Anti-Slip Anti Licin
+- Target: Pria
+- Penggunaan: Indoor & Outdoor (Sandal rumah, jalan santai, sandal harian, dan bepergian)`,
   },
   'CZN-010': {
     sizes: ['35-36', '37-38', '39-40', '40-41', '42-43', '44-45'],
     colors: ['Hitam', 'Navy', 'Taupe', 'Cream', 'Abu-Abu'],
-    description: 'Belum Tersedia',
+    description: `CZN-010 Sandal Selop Jepit Unisex Minimalis
+
+Sandal selop jepit CZN-010 hadir dengan desain minimalis, simpel, dan modern yang serbaguna untuk pria maupun wanita. Dibuat dari bahan EVA Premium berkualitas tinggi yang super ringan, lentur, dan empuk sehingga memberikan kenyamanan ekstra di setiap langkah tanpa membuat kaki pegal walau dipakai seharian. Sandal ini dirancang dengan outsole bertekstur anti-licin yang memberikan pijakan aman dan stabil, menjadikannya pilihan tepat untuk penggunaan harian di rumah hingga jalan santai.
+
+Spesifikasi:
+- Kode Produk: CZN-010
+- Jenis Produk: Sandal Selop Jepit Unisex
+- Bahan/Material: EVA Premium (Super Ringan, Lentur, Empuk & Nyaman)
+- Fitur Utama: Desain Simpel Modern, Outsole Anti-Licin, Bebas Pegal
+- Pilihan Warna: Hitam
+- Pilihan Ukuran: Size 36 sampai 43 (Disarankan naik 1 size untuk tipe kaki lebar)
+- Target: Pria & Wanita (Unisex)
+- Penggunaan: Sandal rumah, jalan santai, dan aktivitas harian`,
   },
   'CZN-011': {
     sizes: ['38-39', '40-41', '42-43', '44-45'],
     colors: ['Navy', 'Hitam', 'Coklat'],
-    description: 'Belum Tersedia',
+    description: `CZN-011 Sandal Slip On Unisex Air Shoes Sport
+
+Sandal slip-on CZN-011 menghadirkan kombinasi sempurna antara desain sporty yang modern dan kenyamanan maksimal. Dibuat dengan sol lembut yang fleksibel dan ergonomis mengikuti bentuk kaki, sandal ini terasa super ringan dan nyaman dipakai seharian tanpa membuat kaki cepat lelah. Menggunakan material EVA/PVC berkualitas yang awet, praktis, serta dilengkapi outsole anti-slip untuk pijakan yang aman dan tidak licin di berbagai permukaan. Tampilannya makin trendi dengan aksen tulisan "Air Shoes Sport", sangat cocok untuk gaya kasual pria maupun wanita.
+
+Spesifikasi:
+- Kode Produk: CZN-011
+- Jenis Produk: Sandal Slip On / Sandal Selop Unisex (Air Shoes Sport)
+- Bahan/Material: EVA / PVC berkualitas (Ringan, Empuk, Fleksibel & Tahan Lama)
+- Fitur Utama: Desain Sporty Modern, Sol Lembut Ergonomis, Outsole Anti-Slip Anti Licin
+- Pilihan Warna: Hitam, Navy, dan Coklat
+- Target: Pria & Wanita (Unisex)
+- Penggunaan: Indoor & Outdoor (Sandal rumah, jalan santai, liburan, dan aktivitas harian)`,
   },
   'CZN-012': {
     sizes: ['36-37', '38-39', '40-41', '42-43', '44-45'],
     colors: ['Pink', 'Biru', 'Hitam', 'Khaki', 'Ungu'],
-    description: 'Belum Tersedia',
+    description: `CZN-012 Sandal Wanita Selop Slide EVA
+
+Sandal selop slide wanita CZN-012 hadir dengan desain modern dan elegan untuk menunjang gaya sehari-hari tanpa mengorbankan kenyamanan. Dibuat dari bahan EVA Premium yang super ringan, empuk, dan elastis, sandal ini memberikan keleluasaan bergerak tanpa rasa lelah atau sakit di kaki walau dipakai beraktivitas seharian. Materialnya tahan air, sangat praktis, dan mudah dibersihkan. Dilengkapi dengan outsole bertekstur anti-slip yang aman dan tidak licin di berbagai permukaan indoor maupun outdoor.
+
+Spesifikasi:
+- Kode Produk: CZN-012
+- Jenis Produk: Sandal Selop / Slide Wanita
+- Bahan/Material: EVA Premium (Ringan, Empuk, Elastis, Tahan Air & Mudah Dibersihkan)
+- Fitur Utama: Desain Modern Elegan, Outsole Anti-Slip Anti Licin, Bobot Super Ringan
+- Pilihan Warna: Hitam, Coklat, Dark Pink, dan Cream
+- Pilihan Ukuran: Size 36/37, 38/39, dan 40/41
+- Penggunaan: Bepergian, jalan santai, sandal rumah, dan aktivitas harian (indoor & outdoor)`,
   },
   'CZN-013': {
     sizes: ['38-39', '40-41', '42-43'],
     colors: ['Hitam', 'Abu-Abu'],
-    description: 'Belum Tersedia',
+    description: `CZN-013 Sandal Pria Casual Premium
+
+Sandal pria CZN-013 hadir dengan desain modern yang simpel dan elegan, memberikan tampilan rapi dan stylish tanpa ribet untuk menemani berbagai aktivitas harianmu. Dibuat dari material pilihan yang kuat, lentur, dan tahan lama dengan bobot yang ringan agar kaki tidak lelah saat dipakai berjalan jauh. Dilengkapi bantalan sol yang empuk serta outsole bertekstur anti-licin yang memberikan pijakan stabil dan aman di area indoor maupun outdoor. Warna hitam elegannya sangat mudah dipadukan dengan berbagai gaya outfit kasual.
+
+Spesifikasi:
+- Kode Produk: CZN-013
+- Jenis Produk: Sandal Pria Casual / Slide
+- Bahan/Material: Material Sintetis Premium (Kuat, Ringan & Tahan Lama)
+- Fitur Utama: Desain Simpel & Elegan, Sol Empuk Nyaman, Outsole Anti-Licin & Stabil
+- Pilihan Warna: Hitam Elegan
+- Penggunaan: Jalan santai, traveling, nongkrong, dan aktivitas harian (indoor & outdoor)`,
   },
   'CZN-014': {
     sizes: ['36-37', '38-39', '40-41'],
     colors: ['Hitam', 'Cream'],
-    description: 'Belum Tersedia',
+    description: `CZN-014 Sandal Wanita Selop Wedges EVA
+
+Sandal selop wedges wanita CZN-014 hadir dengan desain modern dan elegan yang dirancang khusus untuk kenyamanan aktivitas harianmu. Menggunakan bahan EVA berkualitas yang super ringan, empuk, dan elastis sehingga memberikan keleluasaan bergerak tanpa rasa pegal di kaki. Sandal ini tahan air, sangat praktis dan mudah dibersihkan, serta dilengkapi outsole anti-slip untuk pijakan yang mantap dan aman di berbagai permukaan ruangan maupun luar ruangan.
+
+Spesifikasi:
+- Kode Produk: CZN-014
+- Jenis Produk: Sandal Selop Wedges / Slide Wanita
+- Bahan/Material: EVA Premium (Ringan, Empuk, Elastis, Tahan Air & Mudah Dibersihkan)
+- Fitur Utama: Sol Wedges Nyaman, Outsole Anti-Slip Anti Licin, Desain Elegan & Modern
+- Pilihan Warna: Hitam, Coklat, Dark Pink, dan Cream
+- Pilihan Ukuran: Size 36/37, 38/39, dan 40/41
+- Penggunaan: Indoor & Outdoor (Jalan santai, bepergian, dan pemakaian harian)`,
   },
   'CZN-015': {
     sizes: ['39-40', '41-42', '43-44'],
     colors: ['Hitam', 'Putih', 'Abu-Abu', 'Coklat', 'Hijau'],
-    description: 'Belum Tersedia',
+    description: `CZN-015 Sandal Pria Remaja Casual
+
+Sandal pria remaja CZN-015 hadir dengan desain yang modis, simpel, dan stylish untuk memenuhi kebutuhan gaya harianmu. Dirancang khusus mengutamakan kenyamanan maksimal lewat bantalan sol yang empuk dan bahan yang ringan di kaki, menjadikannya sangat cocok dipakai seharian tanpa membuat lelah. Sandal main yang fleksibel ini tersedia dalam berbagai pilihan warna menarik dengan harga terjangkau untuk menunjang aktivitas santai remaja putri masa kini.
+
+Spesifikasi:
+- Kode Produk: CZN-015
+- Jenis Produk: Sandal Slide / Casual Remaja Pria
+- Bahan/Material: Material Sintetis Premium (Empuk, Ringan & Fleksibel)
+- Fitur Utama: Desain Modis & Trendy, Sol Empuk Nyaman Seharian, Beragam Pilihan Warna
+- Target: Remaja Pria / Pria
+- Penggunaan: Sandal main, jalan santai, hangout, dan aktivitas sehari-hari`,
   },
   'CZN-016': {
     sizes: ['39', '40', '41', '42', '43', '44'],
     colors: ['Hitam'],
-    description: 'Belum Tersedia',
+    description: `CZN-016 Sandal Jepit Pria Original
+
+Sandal jepit pria CZN-016 Original hadir dengan desain yang praktis, fungsional, dan timeless untuk menunjang aktivitas harianmu. Dirancang mengutamakan kenyamanan maksimal lewat penggunaan bahan pilihan yang empuk, lentur, dan tahan lama. Bobotnya yang ringan serta bantalan solnya yang nyaman menjadikan sandal ini pilihan tepat untuk menemani langkahmu sepanjang hari tanpa membuat kaki pegal.
+
+Spesifikasi:
+- Kode Produk: CZN-016
+- Jenis Produk: Sandal Jepit Pria
+- Bahan/Material: Karet/Sintetis Premium (Empuk, Ringan & Awet)
+- Fitur Utama: Desain Praktis & Fungsional, Sol Empuk Tahan Lama, Nyaman Seharian
+- Penggunaan: Pemakaian sehari-hari, santai di rumah, dan bepergian`,
   },
   'CZN-018': {
     sizes: ['37-38', '39-40'],
     colors: ['Coklat', 'Hitam'],
-    description: 'Belum Tersedia',
+    description: `CZN-018 Sandal Slop Casual Stylish
+
+Sandal CZN-018 hadir dengan desain kasual yang modis dan serbaguna, cocok untuk melengkapi penampilan harian remaja hingga dewasa. Dirancang khusus untuk mengutamakan kenyamanan maksimal lewat penggunaan bahan yang empuk dan ringan di kaki. Modelnya yang simpel menjadikannya sandal pilihan tepat untuk berbagai aktivitas santai, jalan-jalan, maupun penggunaan sehari-hari dengan harga yang terjangkau.
+
+Spesifikasi:
+- Kode Produk: CZN-018
+- Jenis Produk: Sandal Slop / Casual Slide
+- Bahan/Material: Material Sintetis Premium (Empuk, Ringan & Nyaman)
+- Fitur Utama: Desain Stylish & Modern, Nyaman Dipakai Seharian, Bobot Ringan
+- Penggunaan: Sandal main, jalan santai, rumah, dan aktivitas harian`,
   },
   'CZN-019': {
     sizes: ['39', '40', '41', '42', '43', '44'],
@@ -493,6 +652,7 @@ export const products: Product[] = Array.from({ length: 42 }, (_, i) => {
   const category = skuCategoryMap[sku] || categories[imageIndex];
   
   if (sku === 'CZN-001') {
+    const details = skuDetailsMap['CZN-001'] || {};
     return {
       sku,
       name: 'CZN-001',
@@ -504,9 +664,9 @@ export const products: Product[] = Array.from({ length: 42 }, (_, i) => {
         '/images/001/CZN-001-4.png',
         '/images/001/CZN-001-5.png',
       ],
-      sizes: ['36/37', '38/39', '40/41'],
-      colors: ['Coklat', 'Cream', 'Hitam'],
-      description: 'Bahan EVA Premium: Sangat empuk, lentur, ringan, dan tidak mudah kempes meskipun sering digunakan.\n\nAnti Slip & Anti Licin: Bagian bawah sandal memiliki tekstur khusus yang mencengkeram permukaan lantai dengan kuat, sangat aman untuk area kamar mandi atau dapur.\n\nWaterproof & Cepat Kering: Tidak menyerap air, sehingga terhindar dari bau lembap dan bakteri.\n\nDesain Ergonomis: Menopang kaki dengan sempurna, mengurangi pegal saat dipakai berjalan lama.\n\nMudah Dibersihkan: Cukup dibilas dengan air, sandal langsung bersih kembali.',
+      sizes: details.sizes || ['36/37', '38/39', '40/41'],
+      colors: details.colors || ['Coklat', 'Cream', 'Hitam'],
+      description: details.description || 'Bahan EVA Premium: Sangat empuk, lentur, ringan, dan tidak mudah kempes meskipun sering digunakan.\n\nAnti Slip & Anti Licin: Bagian bawah sandal memiliki tekstur khusus yang mencengkeram permukaan lantai dengan kuat, sangat aman untuk area kamar mandi atau dapur.\n\nWaterproof & Cepat Kering: Tidak menyerap air, sehingga terhindar dari bau lembap dan bakteri.\n\nDesain Ergonomis: Menopang kaki dengan sempurna, mengurangi pegal saat dipakai berjalan lama.\n\nMudah Dibersihkan: Cukup dibilas dengan air, sandal langsung bersih kembali.',
       category,
     };
   }
