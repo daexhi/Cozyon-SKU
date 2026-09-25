@@ -230,7 +230,7 @@ const App: React.FC = () => {
                   onClick={() => setSelectedProduct(null)}
                   className="w-full py-4 bg-slate-900 text-white rounded-2xl font-bold text-lg shadow-xl shadow-slate-900/20 active:scale-95 transition-transform"
                 >
-                  Selesai
+                  Tutup
                 </button>
               </div>
             </motion.div>
